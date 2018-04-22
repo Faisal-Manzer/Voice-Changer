@@ -1,5 +1,5 @@
 //
-//  playSoundViewController.swift
+//  PlaySoundsViewController.swift
 //  Funny Voice
 //
 //  Created by Faisal Manzer on 22/04/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class playSoundViewController: UIViewController {
+class PlaySoundsViewController: UIViewController {
     
     var recordedAudioUrl: URL!
 
