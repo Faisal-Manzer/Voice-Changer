@@ -11,7 +11,21 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var recordBtn: UIButton!
+    @IBOutlet weak var recordLabel: UILabel!
+    @IBOutlet weak var stopBtn: UIButton!
+    
     var isRecording = false
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        print("View will Appear")
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        print("View Appeared")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -24,15 +38,6 @@ class ViewController: UIViewController {
 
     @IBAction func recordBtn(_ sender: Any) {
         print("clicked btn")
-        if !isRecording {
-            recordBtn.setTitle("Recording", for: .normal)
-            print("Recording Started")
-        }
-        else{
-            recordBtn.setTitle("Record", for: .normal)
-            print("Recording Stoped")
-        }
-        isRecording = !isRecording
     }
     
 }
