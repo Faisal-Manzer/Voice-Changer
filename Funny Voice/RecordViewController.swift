@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  RecordViewController.swift
 //  Funny Voice
 //
 //  Created by Faisal Manzer on 19/04/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class RecordViewController: UIViewController {
 
     @IBOutlet weak var recordBtn: UIButton!
     @IBOutlet weak var recordLabel: UILabel!
