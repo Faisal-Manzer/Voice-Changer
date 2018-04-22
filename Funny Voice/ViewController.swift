@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var recordBtn: UIButton!
+    var isRecording = false
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +22,18 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func recordBtn(_ sender: Any) {
+        print("clicked btn")
+        if !isRecording {
+            recordBtn.setTitle("Recording", for: .normal)
+            print("Recording Started")
+        }
+        else{
+            recordBtn.setTitle("Record", for: .normal)
+            print("Recording Stoped")
+        }
+        isRecording = !isRecording
+    }
+    
 }
 
