@@ -19,6 +19,7 @@ class ViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         print("View will Appear")
+        stopBtn.isEnabled = false
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -37,8 +38,17 @@ class ViewController: UIViewController {
     }
 
     @IBAction func recordBtn(_ sender: Any) {
-        print("clicked btn")
+        print("clicked record btn")
+        recordLabel.text = "Recording..."
+        recordBtn.isEnabled = false
+        stopBtn.isEnabled = true
     }
     
+    @IBAction func stopBtn(_ sender: Any) {
+        print("Stop btn pressed")
+        recordLabel.text = "Tap to record"
+        recordBtn.isEnabled = true
+        stopBtn.isEnabled = false
+    }
 }
 
