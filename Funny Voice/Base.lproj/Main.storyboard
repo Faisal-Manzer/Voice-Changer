@@ -41,7 +41,6 @@
                                 <state key="normal" image="Stop"/>
                                 <connections>
                                     <action selector="stopBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gk8-ql-xvn"/>
-                                    <segue destination="kxK-2v-WDz" kind="show" id="YOl-My-yJX"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -61,16 +60,17 @@
                         <outlet property="recordBtn" destination="7qe-Ey-Qhq" id="7xb-8f-6U7"/>
                         <outlet property="recordLabel" destination="Yiu-VK-enT" id="DyR-wa-1c7"/>
                         <outlet property="stopBtn" destination="ghc-e5-hIR" id="Uyk-Bc-hZY"/>
+                        <segue destination="kxK-2v-WDz" kind="show" identifier="stopBtn" id="4Un-CA-Tqn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="972" y="32.833583208395808"/>
         </scene>
-        <!--View Controller-->
+        <!--Play Sound View Controller-->
         <scene sceneID="0U3-LI-dpf">
             <objects>
-                <viewController id="kxK-2v-WDz" sceneMemberID="viewController">
+                <viewController id="kxK-2v-WDz" customClass="playSoundViewController" customModule="Funny_Voice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Dre-JK-f3j">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Funny Voice/RecordViewController.swift"
+            timestampString = "546097569.511397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "RecordViewController"
+            landmarkType = "3">
+            <Actions>
+               <BreakpointActionProxy
+                  ActionExtensionID = "Xcode.BreakpointAction.DebuggerCommand">
+                  <ActionContent
+                     consoleCommand = "">
+                  </ActionContent>
+               </BreakpointActionProxy>
+            </Actions>
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Funny_Voice.RecordViewController.audioRecorder.getter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.AVAudioRecorder&gt;"
+                  moduleName = "Funny Voice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/faisal_manzer/Documents/Voice-Changer/Funny%20Voice/RecordViewController.swift"
+                  timestampString = "546095411.831828"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "109">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Funny_Voice.RecordViewController.audioRecorder.setter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.AVAudioRecorder&gt;"
+                  moduleName = "Funny Voice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/faisal_manzer/Documents/Voice-Changer/Funny%20Voice/RecordViewController.swift"
+                  timestampString = "546095411.835117"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Funny_Voice.RecordViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Funny_Voice.RecordViewController"
+                  moduleName = "Funny Voice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/faisal_manzer/Documents/Voice-Changer/Funny%20Voice/RecordViewController.swift"
+                  timestampString = "546095411.8379641"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Funny_Voice.RecordViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;Funny_Voice.RecordViewController&gt;"
+                  moduleName = "Funny Voice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/faisal_manzer/Documents/Voice-Changer/Funny%20Voice/RecordViewController.swift"
+                  timestampString = "546095411.841254"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "55">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
