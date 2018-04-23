@@ -26,7 +26,7 @@ class PlaySoundsViewController: UIViewController {
     var stopTimer: Timer!
     
     enum ButtonType: Int {
-        case slow = 0, fast, chipmunk, vader, echo, reverb
+        case slow = 0, fast = 1, chipmunk = 2, vader = 3, echo = 4, reverb = 5
     }
     
     override func viewDidLoad() {
@@ -62,6 +62,7 @@ class PlaySoundsViewController: UIViewController {
     
     @IBAction func stopButtonPressed(_ sender: AnyObject) {
         print("Stop Audio Button Pressed")
+        stopAudio()
     }
 
 }
